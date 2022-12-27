@@ -1,0 +1,59 @@
+.input_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+.button_add {
+    background-color: rgba(12, 97, 243, 0.825);
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(5, 5, 65);
+}
+.input_value {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #9c27b0;
+    background: #9c27b0;
+}
+.input_value::placeholder{
+    color: white;
+}
+.added_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 60px;
+    color: green;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.added_text:hover {
+    background-color: #431322fa;
+    color: white;
+}
+.delete_button{
+    background-color: rgba(12, 97, 243, 0.825);
+    border: 1px solid rgba(12, 97, 243, 0.825);
+    border-radius: 5px;
+    color: green;
+}
+.add_icon_box{
+    display: inline;
+}
